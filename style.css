@@ -1,0 +1,48 @@
+body { 
+    background-color: lightblue; 
+}
+
+h1 { 
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    padding: 8%;
+    margin-top: 20;
+    display: inline;
+    text-align: center;
+}
+
+td {
+    padding: 1rem;
+    background: whitesmoke;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th {
+    padding: 1rem;
+    background: whitesmoke;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .delete {
+    background: orangered;
+  }
+/* 
+#my_header {
+    display:table;
+    margin:auto;
+}
+#my_header div {
+    display:table-cell;
+    padding-left: 10;
+} */

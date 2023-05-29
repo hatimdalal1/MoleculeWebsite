@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+    <script src="/elementScript.js" /></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Add Elements</title>
+</head>
+<body>
+  <h1>Welcome to Assignment 4!</h1>
+    <h3 id="home" name="home" ><a href="/index.html">Home</a></h3>
+    <h3 id="addEl" name="addEl" ><a href="/addElements.html">Add/Remove Elements</a></h3>
+    <h3 id="addSDF" name="addSDf"><a href="/sdf.html">Add SDF File</a></h3>
+    <h3 id="viewMol" name="viewMol"><a href="viewMols.html">View Molecules</a></h3>
+  
+    <br>
+    <h1>Add Elements</h1>
+  
+    <form id="elementForm" name="elementForm">
+        <label for="elementNum">Element Number:</label>
+        <input type="number" id="elementNum" name="elementNum" min="1" required>
+        <br><br>
+    
+        <label for="elementCode">Element Code:</label>
+        <input type="text" id="elementCode" name="elementCode" oninput="this.value = this.value.toUpperCase()" required>
+        <br><br>
+    
+        <label for="elementName">Element Name:</label>
+        <input type="text" id="elementName" name="elementName" oninput="this.value = this.value.toUpperCase()" required>
+        <br><br>
+    
+        <label for="colour1">Colour 1:</label>
+        <input type="color" id="colour1" name="colour1" required>
+        <br><br>
+    
+        <label for="colour2">Colour 2:</label>
+        <input type="color" id="colour2" name="colour2" required>
+        <br><br> 
+    
+        <label for="colour3">Colour 3:</label>
+        <input type="color" id="colour3" name="colour3" required>
+        <br><br>
+    
+        <label for="radius">Radius:</label>
+        <input type="number" id="radius" name="radius" required>
+        <br><br>
+    
+        <button id="button" name="button" "type="submit">Add Element</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <table>
+        <thead>
+        <tr>
+            <th>Element Number</th>
+            <th>Element Code</th>
+            <th>Element Name</th>
+            <th>Colour 1</th>
+            <th>Colour 2</th>
+            <th>Colour 3</th>
+            <th>Radius</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+    <tbody>
+    </tbody>
+  </table>
+</body>
+</html>

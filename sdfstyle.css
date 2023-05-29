@@ -1,0 +1,14 @@
+body { 
+    background-color: lightblue; 
+}
+
+h1 { 
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    padding: 8%;
+    display: inline;
+    text-align: center;
+}
